@@ -45,6 +45,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32916912B99B97F006D837B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D33AAE022B98F25600107BD4 /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D32916922B99B98F006D837B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D33AADFC2B98EA8300107BD4 /* TableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D32916932B99B9A5006D837B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D33AAE002B98F10C00107BD4 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D32916942B99B9DA006D837B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D33AADE82B98E12F00107BD4 /* AppDelegate.swift */,
+				D33AADEA2B98E12F00107BD4 /* SceneDelegate.swift */,
+				D33AADF62B98E13000107BD4 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D32916952B99BA26006D837B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D33AADEC2B98E12F00107BD4 /* CharactersTableViewController.swift */,
+				D33AADFE2B98ED5D00107BD4 /* CharacterDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D32916962B99BA47006D837B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D33AADEE2B98E12F00107BD4 /* Main.storyboard */,
+				D33AADF32B98E13000107BD4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D32916972B99BA54006D837B /* Sourse */ = {
+			isa = PBXGroup;
+			children = (
+				D33AADF12B98E13000107BD4 /* Assets.xcassets */,
+			);
+			path = Sourse;
+			sourceTree = "<group>";
+		};
 		D33AADDC2B98E12F00107BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +124,13 @@
 		D33AADE72B98E12F00107BD4 /* HarryPotter'sCharacterGallery */ = {
 			isa = PBXGroup;
 			children = (
-				D33AADE82B98E12F00107BD4 /* AppDelegate.swift */,
-				D33AADEA2B98E12F00107BD4 /* SceneDelegate.swift */,
-				D33AADEC2B98E12F00107BD4 /* CharactersTableViewController.swift */,
-				D33AADFE2B98ED5D00107BD4 /* CharacterDetailsViewController.swift */,
-				D33AAE022B98F25600107BD4 /* Character.swift */,
-				D33AADFC2B98EA8300107BD4 /* TableViewCell.swift */,
-				D33AAE002B98F10C00107BD4 /* NetworkManager.swift */,
-				D33AADEE2B98E12F00107BD4 /* Main.storyboard */,
-				D33AADF12B98E13000107BD4 /* Assets.xcassets */,
-				D33AADF32B98E13000107BD4 /* LaunchScreen.storyboard */,
-				D33AADF62B98E13000107BD4 /* Info.plist */,
+				D32916942B99B9DA006D837B /* SupportingFiles */,
+				D32916952B99BA26006D837B /* ViewControllers */,
+				D32916912B99B97F006D837B /* Models */,
+				D32916922B99B98F006D837B /* Views */,
+				D32916932B99B9A5006D837B /* Services */,
+				D32916962B99BA47006D837B /* Storyboards */,
+				D32916972B99BA54006D837B /* Sourse */,
 			);
 			path = "HarryPotter'sCharacterGallery";
 			sourceTree = "<group>";
@@ -234,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -291,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -309,7 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HarryPotter'sCharacterGallery/Info.plist";
+				INFOPLIST_FILE = "HarryPotter'sCharacterGallery/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -340,7 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HarryPotter'sCharacterGallery/Info.plist";
+				INFOPLIST_FILE = "HarryPotter'sCharacterGallery/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
